@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{FA7A94E1-B842-47C7-BEE9-B08B6B045FD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boy", "libs\boy\boy.vcxproj", "{41F60CE1-30E2-4EB2-9126-2E830731D15A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ball", "ball\ball.vcxproj", "{64D0C340-DF27-4EF0-8E11-E2FE1204BC51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41F60CE1-30E2-4EB2-9126-2E830731D15A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41F60CE1-30E2-4EB2-9126-2E830731D15A}.Debug|Win32.Build.0 = Debug|Win32
+		{41F60CE1-30E2-4EB2-9126-2E830731D15A}.Release|Win32.ActiveCfg = Release|Win32
+		{41F60CE1-30E2-4EB2-9126-2E830731D15A}.Release|Win32.Build.0 = Release|Win32
+		{64D0C340-DF27-4EF0-8E11-E2FE1204BC51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64D0C340-DF27-4EF0-8E11-E2FE1204BC51}.Debug|Win32.Build.0 = Debug|Win32
+		{64D0C340-DF27-4EF0-8E11-E2FE1204BC51}.Release|Win32.ActiveCfg = Release|Win32
+		{64D0C340-DF27-4EF0-8E11-E2FE1204BC51}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41F60CE1-30E2-4EB2-9126-2E830731D15A} = {FA7A94E1-B842-47C7-BEE9-B08B6B045FD7}
+	EndGlobalSection
+EndGlobal

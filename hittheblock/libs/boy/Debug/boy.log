@@ -1,0 +1,38 @@
+﻿生成启动时间为 2012/2/12 15:35:59。
+     1>项目“E:\Russell\GameDev\Projects\hittheblock\libs\boy\boy.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\boy.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BoundingBox.cpp BoundingSphere.cpp boylib.cpp Environment.cpp Event.cpp EventDispatcher.cpp EventListener.cpp Geometry.cpp Mouse.cpp MouseEvent.cpp MouseListener.cpp object.cpp winEnvironment.cpp winGraphicObject.cpp winGraphics.cpp
+         winGraphics.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\winbase.h(9): fatal error C1083: 无法打开包括文件:“d3dx9.h”: No such file or directory
+         winGraphicObject.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\winbase.h(9): fatal error C1083: 无法打开包括文件:“d3dx9.h”: No such file or directory
+         winEnvironment.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\winbase.h(9): fatal error C1083: 无法打开包括文件:“d3dx9.h”: No such file or directory
+         object.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\winbase.h(9): fatal error C1083: 无法打开包括文件:“d3dx9.h”: No such file or directory
+         MouseListener.cpp
+         MouseEvent.cpp
+         Mouse.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\winbase.h(9): fatal error C1083: 无法打开包括文件:“d3dx9.h”: No such file or directory
+         Geometry.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\winbase.h(9): fatal error C1083: 无法打开包括文件:“d3dx9.h”: No such file or directory
+         EventListener.cpp
+         EventDispatcher.cpp
+         Event.cpp
+         Environment.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\winbase.h(9): fatal error C1083: 无法打开包括文件:“d3dx9.h”: No such file or directory
+         boylib.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\boylib.cpp(9): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 参见“itoa”的声明
+         BoundingSphere.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\boundingsphere.h(2): fatal error C1083: 无法打开包括文件:“d3dx9math.h”: No such file or directory
+         BoundingBox.cpp
+     1>e:\russell\gamedev\projects\hittheblock\libs\boy\boundingbox.h(2): fatal error C1083: 无法打开包括文件:“d3dx9math.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\Russell\GameDev\Projects\hittheblock\libs\boy\boy.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.27

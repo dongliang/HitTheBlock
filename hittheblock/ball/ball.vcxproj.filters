@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\Listener">
+      <UniqueIdentifier>{0c1c6f62-e531-4ec3-9ad5-d1dac3c6a729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Collison">
+      <UniqueIdentifier>{406b6422-6911-440b-b506-55ec4eaf4aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Manager">
+      <UniqueIdentifier>{bcb24b13-08d7-4db9-be3e-259d134f7138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Game">
+      <UniqueIdentifier>{5c182d0e-4b65-443d-af65-9be789ab6d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Object">
+      <UniqueIdentifier>{91fe9286-a3e0-41ac-83b4-2b2892136410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Factory">
+      <UniqueIdentifier>{9d731d69-b896-44a9-a29e-666684913efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\Listener">
+      <UniqueIdentifier>{8a6ecc16-b938-4aa6-adf5-9546fbe5a9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Collison">
+      <UniqueIdentifier>{7b0ebd32-5d4f-42d2-910b-ee4a4a9c2d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Object">
+      <UniqueIdentifier>{1bce98aa-a1b2-452f-a129-17e2cd6e3642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Manager">
+      <UniqueIdentifier>{b58a4947-5803-460d-a81f-4ed80a3a74ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Game">
+      <UniqueIdentifier>{0e731948-83d6-4d5a-8cc6-110a9eba3042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Factory">
+      <UniqueIdentifier>{bb937ca1-8303-4bf6-a2fd-a1d5afb85c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraMouseListener.cpp">
+      <Filter>源文件\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="shipMouseListener.cpp">
+      <Filter>源文件\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="ballCollisonController.cpp">
+      <Filter>源文件\Collison</Filter>
+    </ClCompile>
+    <ClCompile Include="collisonInfo.cpp">
+      <Filter>源文件\Collison</Filter>
+    </ClCompile>
+    <ClCompile Include="segment.cpp">
+      <Filter>源文件\Collison</Filter>
+    </ClCompile>
+    <ClCompile Include="objectManager.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="demo1.cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="obj2dBox.cpp">
+      <Filter>源文件\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="objBall.cpp">
+      <Filter>源文件\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="objBlock.cpp">
+      <Filter>源文件\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="objField.cpp">
+      <Filter>源文件\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="objShip.cpp">
+      <Filter>源文件\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BallFactory.cpp">
+      <Filter>源文件\Factory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cameraMouseListener.h">
+      <Filter>头文件\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="shipMouseListener.h">
+      <Filter>头文件\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="ballCollisonController.h">
+      <Filter>头文件\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="collisonInfo.h">
+      <Filter>头文件\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="segment.h">
+      <Filter>头文件\Collison</Filter>
+    </ClInclude>
+    <ClInclude Include="obj2dBox.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objBall.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objBlock.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objField.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objShip.h">
+      <Filter>头文件\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="objectManager.h">
+      <Filter>头文件\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="demo1.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BallFactory.h">
+      <Filter>头文件\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ball.x">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ball_m.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="border.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="crazy.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="crazy_ball.x">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="facet_ball.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="field.x">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="field11.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="field_border.x">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ggg.x">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ship.x">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="standart.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

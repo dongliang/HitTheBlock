@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ball.vs2008">
+</Property><Property Name="解决方案文件" Value="E:\Russell\GameDev\Projects\hittheblock\ball.vs2008.sln">
+</Property><Property Name="Date" Value="2012年1月24日">
+</Property><Property Name="Time" Value="12:04">
+</Property></Properties><Event ErrorLevel="0" Project="boy" Source="libs\boy\boy.vcproj" Description="Converting project file 'E:\Russell\GameDev\Projects\hittheblock\libs\boy\boy.vcproj'.">
+</Event><Event ErrorLevel="1" Project="boy" Source="libs\boy\boy.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="boy" Source="libs\boy\boy.vcproj" Description="VCConvertEngine could not convert attribute UseUnicodeResponseFiles = false under Tool VCCLCompilerTool.">
+</Event><Event ErrorLevel="0" Project="boy" Source="libs\boy\boy.vcproj" Description="Done converting to new project file 'E:\Russell\GameDev\Projects\hittheblock\libs\boy\boy.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="boy" Source="libs\boy\boy.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ball" Source="ball\ball.vcproj" Description="Converting project file 'E:\Russell\GameDev\Projects\hittheblock\ball\ball.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ball" Source="ball\ball.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="ball" Source="ball\ball.vcproj" Description="Attribute 'CopyLocalDependencies' of 'ProjectReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="ball" Source="ball\ball.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'ProjectReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="ball" Source="ball\ball.vcproj" Description="Done converting to new project file 'E:\Russell\GameDev\Projects\hittheblock\ball\ball.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ball" Source="ball\ball.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ball.vs2008.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="ball.vs2008.sln" Description="Converted">
+</Event></UpgradeLog>
